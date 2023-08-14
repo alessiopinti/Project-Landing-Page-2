@@ -8,26 +8,31 @@
     width: 200px;
     height: 200px;
     background-color: #1f2937;
+    width: 100%;
 }
 
 .information {
     width: 200px;
     height: 200px;
+    width: 100%;
 }
 
 .quote {
     width: 200px;
     height: 200px;
     background-color: #e5e7eb;
+    width: 100%;
 }
 
 .sign-up {
     width: 200px;
     height: 200px;
+    width: 100%;
 }
 
 .footer {
     width: 200px;
     height: 200px;
     background-color: #1f2937;
+    width: 100%;
 }
