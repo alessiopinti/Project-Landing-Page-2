@@ -53,7 +53,7 @@ body {
     height: 425px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 100px;
 }
 
 .top {
@@ -73,7 +73,7 @@ body {
 
 .links {
     height: 50px;
-    width: 50%;
+    width: 50%; 
     display: flex;
     justify-content: flex-end;
 }
@@ -85,16 +85,39 @@ body {
 }
 
 .bottom {
+    display: flex;
     width: 1300px;
     height: 325px;
 }
 
 .bottom-left {
+    width: 650px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
 
+.up {
+    height: 120px;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.middle {
+    height: 80px;
+}
+
+.below {
+    height: 50px;
 }
 
 .bottom-right {
-    
+    width: 650px;
+    height: 250px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
@@ -104,4 +127,8 @@ ul {
   a {
     color: white;
     text-decoration: none;
+  }
+
+  button {
+    background-color: #3882f6;
   }
