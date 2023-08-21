@@ -66,6 +66,8 @@ body {
 
 .logo {
     height: 50px;
+    font-size: 24px;
+    color: #f9faf8;
     display: flex;
     align-items: center;
     color: white;
@@ -99,12 +101,17 @@ body {
 
 .up {
     height: 120px;
+    width: 75%;
     font-size: 48px;
+    font-weight: 800;
     color: #f9faf8;
 }
 
 .middle {
     height: 80px;
+    width: 75%;
+    font-size: 18px;
+    color: #e5e7eb
 }
 
 .below {
@@ -131,4 +138,7 @@ ul {
 
   button {
     background-color: #3882f6;
+    width: 125px;
+    height: 35px;
+    border-radius: 10px;
   }
