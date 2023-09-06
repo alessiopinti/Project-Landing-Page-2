@@ -241,9 +241,12 @@ body {
     align-items: flex-end;
 }
 
-.sub-right-container {
-    height: 50px;
-    width: 150px;
+.styled-button-two {
+    height: 30px;
+    width: 100px;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
 }
 
 .footer {
